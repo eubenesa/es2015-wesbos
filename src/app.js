@@ -1,4 +1,4 @@
-import { isNil } from 'lodash';
-import testES2016 from './modules/01-new-vars';
+import { varScopingRefresher, letVsConst } from './modules/01-new-variables';
 
-console.log(isNil(testES2016(2)));
+varScopingRefresher();
+letVsConst();

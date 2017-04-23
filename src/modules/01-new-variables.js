@@ -1,3 +1,7 @@
-const testES2016 = num => [1, 2, 3].includes(num);
+export const varScopingRefresher = () => {
+  console.log('varScopingRefresher');
+};
 
-export default testES2016;
+export const letVsConst = () => {
+  console.log('letVsConst');
+};
